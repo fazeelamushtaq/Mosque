@@ -1,3 +1,12 @@
-export default async function Home() {
-  return <div>sssh</div>
+import { Navbar } from "@/components"
+import HomePage from "./(home)/page"
+
+export default async function Dashboard() {
+  return (
+    <>
+      <Navbar />
+      <HomePage />
+      {/* Footer */}
+    </>
+  )
 }
