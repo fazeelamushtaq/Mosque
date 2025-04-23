@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "format": "prettier --write ."
   },
   "dependencies": {
     "@types/node": "20.5.9",
@@ -28,6 +29,7 @@
   },
   "devDependencies": {
     "@types/lodash": "^4.14.197",
-    "@types/moment-hijri": "^2.1.0"
+    "@types/moment-hijri": "^2.1.0",
+    "prettier": "^3.5.3"
   }
 }
