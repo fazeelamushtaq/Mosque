@@ -1,11 +1,10 @@
-import { Navbar } from "@/components"
-import HomePage from "./(home)/page"
+import { Home, Navbar } from "@/components"
 
 export default async function Dashboard() {
   return (
     <>
       <Navbar />
-      <HomePage />
+      <Home />
       {/* Footer */}
     </>
   )
