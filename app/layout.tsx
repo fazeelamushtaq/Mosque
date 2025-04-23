@@ -25,7 +25,7 @@ export default function RootLayout({
         <meta httpEquiv="refresh" content="3600" />
         <link rel="shortcut icon" href="/favicon.ico" />
       </head>
-      <body className={`${inter.className} min-w-full min-h-screen`}>
+      <body className={`${inter.className} min-h-screen overflow-x-hidden`}>
         {children}
       </body>
     </html>

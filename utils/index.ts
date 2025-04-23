@@ -1,5 +1,10 @@
 export function getFormattedTime(date: Date): string {
-  return date.toLocaleTimeString("en-GB")
+  return date.toLocaleTimeString("en-US", {
+    hour: "numeric",
+    minute: "numeric",
+    second: "numeric",
+    hour12: true,
+  })
 }
 
 export function getFormattedDate(date: Date): string {
